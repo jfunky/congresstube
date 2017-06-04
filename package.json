@@ -1,0 +1,19 @@
+{
+  "name": "congressfundertube",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "4.4.7"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "4.x",
+    "morgan": "~1.0.0",
+    "request": "^2.47.0",
+    "body-parser": "^1.5.2",
+    "underscore": "^1.7.0"
+  }
+}

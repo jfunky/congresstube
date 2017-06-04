@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Halant:400,600);
+h1{
+  font-family: 'Halant', serif;
+  font-size: 24px;
+  color: #DFE2DB;
+  margin: 0px 10px ;
+}
+
+h2, a {
+  font-family: 'Halant', serif;
+  font-size: 18px;
+  color: #DFE2DB;
+}
+
+p,ol,li{
+  font-family: 'Halant', serif;
+  font-size: 16px;
+  color: #DFE2DB;
+}
+
+html,
+body {
+  background: #191919;
+  margin: auto;
+}
+
+#header {
+  position: absolute;
+  margin: 3% 22%;
+  width: 60%;
+}
+
+#bg img {
+  position: absolute; 
+  left: 15%;
+  width: 70%; 
+  height: auto;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+#legis-container {
+  position: absolute ;
+  top: 170px;
+  left: 20%;
+  float:left ;
+  z-index: 1;
+}
+
+#funder-container {
+  position: absolute ;
+  top: 170px;
+  left: 53%;
+  float:left ;
+  z-index: 1;
+}
+
+#legis-video {
+  position: absolute ;
+  margin-top: 540px; ;
+  margin-left: 20%;
+}
+
+input[type=text] {
+    width: 85%;
+    padding: 8px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-family: 'Halant', serif;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555555
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-size: 18px;
+    font-family: 'Halant', serif;
+    margin: 4px 2px;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+iframe[seamless] { 
+    display: block;
+    width:495px;
+    height:280px;
+}
